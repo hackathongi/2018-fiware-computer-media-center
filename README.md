@@ -1,7 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A Rails app that listens for Fiware events and acts as a media center.
+- Opens Firefox with a search query parameter.
+- Plays requested music from your music library.
+
+Fiware entity registration, subscription, etc.. are implemented as rake tasks.
 
 Things you may want to cover:
 

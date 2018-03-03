@@ -4,8 +4,7 @@
 
 class Player
   def initialize
-    #    @music_path= '/home/oliver/Música/musica en dani/*'
-    @files = Dir.glob '/home/oliver/Música/musica en dani/**/*.mp3'
+    @files = Dir.glob '/home/oliver/Música/**/*.mp3'
     @rnd= Random.new
   end
 
